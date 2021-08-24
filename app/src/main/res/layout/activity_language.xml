@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context="com.ussd.mysoft.uz.LanguageActivity"
+    android:background="@drawable/main_backshadow"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_ozbekcha"
+        android:text="O'zbekcha"
+        android:textColor="#0F0F0F"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:shadowColor="#FDE706"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="300dp"
+        />
+    <Button
+        android:id="@+id/ruscha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/button_shape"
+        android:shadowColor="#FDE706"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="русский"
+        android:textColor="#0F0F0F"
+        android:textSize="30sp" />
+
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-51dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginStart="33dp"
+            android:src="@drawable/header" />
+    </FrameLayout>
+
+
+
+</RelativeLayout>

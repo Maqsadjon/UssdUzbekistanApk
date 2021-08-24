@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Ussd Uzbekistan</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="beeline_siz_ishongan">Beeline Siz ishongan</string>
+    <string name="yuksalish">YUKSALISH</string>
+    <string name="ussd_kodlar">Ussd Kodlar</string>
+    <string name="ta_rif_rjalar">Ta\'rif Rjalar</string>
+    <string name="daqiqalar">Daqiqalar</string>
+    <string name="internet_paketlari">Internet Paketlari</string>
+    <string name="button">Button</string>
+    <string name="beeline">Beeline</string>
+    <string name="mobiuz">Mobiuz</string>
+    <string name="uzmobile">Uzmobile</string>
+    <string name="ucell">Ucell</string>
+    <string name="todo">TODO</string>
+    <string name="operator">Operator</string>
+    <string name="balanse">Balance</string>
+    <string name="kabinet">Kabinet</string>
+    <string name="ussd_beeline">USSD Beeline</string>
+    <string name="balansni_bilish_uchun">BALANSNI BILISH UCHUN</string>
+</resources>

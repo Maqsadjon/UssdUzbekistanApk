@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ussd.mysoft.uz">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/original_logotip"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.ussd.mysoft.uz.RusUcell_xizmatlar" android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusUcell_tarifreja"
+            android:theme="@style/NoActionbar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusUcell_daqiqa"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ussd.mysoft.uz.RusUcell_sms"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ussd.mysoft.uz.RusUcell_internetpaket"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ussd.mysoft.uz.RusUcell_ussd"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusUcellMenu"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusUzmobile_xizmatlar"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusUzmobile_tarifreja"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusUzmobile_daqiqa"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusUzmobile_sms"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusUzmobile_internetpaket"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusUzmobile_ussd"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusUzmobileMenu"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusMobiuz_xizmatlar"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusMobiuz_daqiqa"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusMobiuz_tarifreja"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusMobiuz_sms"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusMobiuz_internetpaket"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusMobiuz_ussd"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusMobiuzMenu"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusBeeline_xizmatlar"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusBeeline_daqiqa"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusBeeline_sms"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusBeeline_tarifreja"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusBeeline_internetpaket"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusBeeline_ussd"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.RusMainMenu"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity android:name="com.ussd.mysoft.uz.RusMainActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ussd.mysoft.uz.MainActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Ucell_xizmatlar"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Ucell_daqiqa"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Ucell_tarifreja"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Ucell_sms"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Ucell_internetpaket"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Ucell_ussd"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.UcellMenu"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Uzmobile_xizmatlar"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Uzmobile_daqiqa"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Uzmobile_tarifreja"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Uzmobile_sms"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Uzmobile_internetpaket"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Uzmobile_ussd"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.UzmobileMenu"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Mobiuz_xizmatlar"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Mobiuz_sms"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Mobiuz_daqiqa"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Mobiuz_internetpaket"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Mobiuz_tarifreja"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Mobiuz_ussd"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.MobiuzMenu"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Beeline_xizmatlar"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Beeline_tarifreja"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Beeline_daqiqa"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Beeline_internetpaket"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Beeline_sms"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ussd.mysoft.uz.Beeline_ussd"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+        <activity android:name="com.ussd.mysoft.uz.LanguageActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ussd.mysoft.uz.MainMenu"
+            android:theme="@style/NoActionbar" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
